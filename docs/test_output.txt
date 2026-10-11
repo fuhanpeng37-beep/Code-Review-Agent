@@ -1,0 +1,28 @@
+test_demo_uses_real_analysis (test_agent.AgentTest.test_demo_uses_real_analysis) ... ok
+test_failed_turn_does_not_corrupt_history (test_agent.AgentTest.test_failed_turn_does_not_corrupt_history) ... ok
+test_loop_limit (test_agent.AgentTest.test_loop_limit) ... ok
+test_malformed_messages (test_agent.AgentTest.test_malformed_messages) ... ok
+test_tool_cycle_and_followup_memory (test_agent.AgentTest.test_tool_cycle_and_followup_memory) ... ok
+test_tool_error_is_returned_to_model (test_agent.AgentTest.test_tool_error_is_returned_to_model) ... ok
+test_whole_turn_trimming (test_agent.AgentTest.test_whole_turn_trimming) ... ok
+test_bad_parameters_and_tool (test_agent.ToolsTest.test_bad_parameters_and_tool) ... ok
+test_keyword_default (test_agent.ToolsTest.test_keyword_default) ... ok
+test_large_and_non_utf8 (test_agent.ToolsTest.test_large_and_non_utf8) ... ok
+test_list_and_clean_example (test_agent.ToolsTest.test_list_and_clean_example) ... ok
+test_path_escape_and_hidden (test_agent.ToolsTest.test_path_escape_and_hidden) ... ok
+test_rules_and_line_numbers (test_agent.ToolsTest.test_rules_and_line_numbers) ... ok
+test_symlink_escape (test_agent.ToolsTest.test_symlink_escape) ... ok
+test_syntax_error (test_agent.ToolsTest.test_syntax_error) ... ok
+test_auth_error_no_retry_or_key_leak (test_agent.TransportTest.test_auth_error_no_retry_or_key_leak) ... ok
+test_bad_json (test_agent.TransportTest.test_bad_json) ... ok
+test_configuration (test_agent.TransportTest.test_configuration) ... ok
+test_network_retry_exhaustion (test_agent.TransportTest.test_network_retry_exhaustion) ... ok
+test_retry_and_request_protocol (test_agent.TransportTest.test_retry_and_request_protocol) ... ok
+test_bad_root (test_cli.CLITest.test_bad_root) ... ok
+test_demo_export_and_trace (test_cli.CLITest.test_demo_export_and_trace) ... ok
+test_missing_credentials (test_cli.CLITest.test_missing_credentials) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.152s
+
+OK

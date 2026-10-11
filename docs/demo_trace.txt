@@ -1,0 +1,3 @@
+离线演示模式：固定审查 examples/buggy.py，未调用大模型。
+步骤 1: read_file {"path":"examples/buggy.py"} => 成功
+步骤 1: analyze_python {"path":"examples/buggy.py"} => 成功
