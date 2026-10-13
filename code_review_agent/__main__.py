@@ -20,8 +20,8 @@ def main(argv=None):
     args = parser.parse_args(argv)
     try:
         client = DemoClient() if args.demo else Client(
-            os.getenv('LLM_API_KEY', ''), os.getenv('LLM_MODEL', ''),
-            os.getenv('LLM_BASE_URL', 'https://api.openai.com/v1'))
+            os.getenv('LLM_API_KEY', 'sk-16724762e627419993fe335ee73ba243'), os.getenv('LLM_MODEL', 'deepseek-chat'),
+            os.getenv('LLM_BASE_URL', 'https://api.deepseek.com/v1'))
         agent = Agent(client, Tools(args.root), max_steps=args.max_steps,
                       trace=(lambda text: print(text, file=sys.stderr)) if args.trace else None)
         def run(prompt):
